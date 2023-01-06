@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet shortcuts</title>
+</head>
+<body>
+    <h3>Emmmet Shortcut</h3>
+    ul>li*5
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    section>article*3
+    <section>
+        <article></article>
+        <article></article>
+        <article></article>
+    </section>
+
+    section>article*3>h3
+    <section>
+        <article>
+            <h3></h3>
+        </article>
+        <article>
+            <h3></h3>
+        </article>
+        <article>
+            <h3></h3>
+        </article>
+    </section>
+
+    section>article*3>h3{My blog}
+    <section>
+        <article>
+            <h3>My blog</h3>
+        </article>
+        <article>
+            <h3>My blog</h3>
+        </article>
+        <article>
+            <h3>My blog</h3>
+        </article>
+    </section>
+
+    section>article*3>h3{My blog-$}
+    <section>
+        <article>
+            <h3>My blog-1</h3>
+        </article>
+        <article>
+            <h3>My blog-2</h3>
+        </article>
+        <article>
+            <h3>My blog-3</h3>
+        </article>
+    </section>
+
+    section>article*3>h3{My blog-$}+p>lorem10
+    <section>
+        <article>
+            <h3>My blog-1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, aliquam!</p>
+        </article>
+        <article>
+            <h3>My blog-2</h3>
+            <p>Eaque omnis debitis beatae eligendi sapiente. Architecto aliquam deserunt commodi.</p>
+        </article>
+        <article>
+            <h3>My blog-3</h3>
+            <p>Quod accusantium provident, odio reiciendis velit quam eos exercitationem dignissimos.</p>
+        </article>
+    </section>
+    
+    section>article.blog*3>h3{My blog-$}+p>lorem10
+    <section>
+        <article class="blog">
+            <h3>My blog-1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, deleniti?</p>
+        </article>
+        <article class="blog">
+            <h3>My blog-2</h3>
+            <p>Optio similique distinctio illum, maiores enim exercitationem omnis porro fuga?</p>
+        </article>
+        <article class="blog">
+            <h3>My blog-3</h3>
+            <p>Quo alias ipsa quasi repudiandae labore dolore minima neque dolorem?</p>
+        </article>
+    </section>
+
+    .album
+    <div class="album"></div>
+
+    <div class="album">
+        <h3></h3>
+        <p></p>
+    </div>
+
+    section>article.blog*3>h3{My blog-$}+p>lorem10^p>lorem5
+    <section>
+        <article class="blog">
+            <h3>My blog-1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, dolore!</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </article>
+        <article class="blog">
+            <h3>My blog-2</h3>
+            <p>Magnam illo quaerat voluptatum ullam, suscipit adipisci minima libero tempore?</p>
+            <p>Magni dolores exercitationem quod voluptatem!</p>
+        </article>
+        <article class="blog">
+            <h3>My blog-3</h3>
+            <p>Accusamus beatae repellat architecto illum mollitia quia at ea rem!</p>
+            <p>Natus magnam optio aperiam dolore!</p>
+        </article>
+    </section>
+
+
+</body>
+</html>
